@@ -1,0 +1,11 @@
+@import navOverlay 
+@import grid
+@import imageOverlay
+@import modal
+
+body
+  height: 1000px
+  background-image: url("../images/G2.png")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover

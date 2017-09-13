@@ -1,0 +1,19 @@
+//When the user scrolls down 20px from the top of the document, make the nav bar transparent slightly.
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop >20) {
+		document.getElementById("myTopnav").style.opacity = 0.7;
+	} else {
+			
+		document.getElementById("myTopnav").style.opacity = 1;
+	}
+}
+
+function openNav() {
+	document.getElementById("myNav").style.width = 100%;
+}
+
+function closeNav() {
+	document.getElementById("myNav").style.width = "0%";
+}

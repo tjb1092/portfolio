@@ -1,0 +1,4 @@
+function showModal(){
+    document.getElementById("mainModal").style.display = "block";
+}
+

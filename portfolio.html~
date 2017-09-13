@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link rel="stylesheet" type="text/css"  href="./styles/portfolio.css">
+        <script src="./js/main.js"></script> 
+        <script src="./js/port.js"></script>
+
+    </head>
+
+    <body>
+	
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>	
+            <a href="experiences.html">Experiences</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <span id="menuBtn" onclick="openNav()">&#9776</span>
+    <div class="wrapper">
+        <h1 class="title">Design Portfolio</h1>
+        
+        <div class="container" id="rcell" onclick="showModal()">
+            <img src="./images/FinalRobotRender.png" alt="robotcell" class="image">
+            <div class="imgOverlay">
+                <div class="text">Robotic Workcell Design</div>
+            </div>
+        </div>
+        <div class="container" id="rtrainer">
+            <img src="./images/remote.jpg" alt="robottrainer" class="image">
+            <div class="imgOverlay">
+                <div class="text">Scalable Robot Trainer</div>
+            </div>
+        </div>
+        <div class="container" id="db">
+            <img src="./images/DBERProject.png" alt="DBER" class="image">
+            <div class="imgOverlay">
+                <div class="text">ER Database Design</div>
+            </div>
+        </div>
+       
+    </div>
+    
+    <div class="modal" id="mainModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Model Text</p>
+        </div>
+    </div>
+
+    </body>
+
+</html>
+

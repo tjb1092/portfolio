@@ -1,0 +1,68 @@
+/* The Overlay (background) */
+.overlay {
+  /* Height and width depends on how you want to reveal the overlay */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s; }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1; }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; }
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+#menuBtn {
+  position: fixed;
+  z-index: 3;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+  color: #2a3439;
+  transition: 0.4s; }
+  #menuBtn:hover {
+    color: #f1f1f1;
+    cursor: pointer; }
+
+#myName {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 10px; }
+
+body {
+  height: auto;
+  background-image: url("../images/G2.png"); }
+
+#content {
+  padding-top: 70px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=index.css.map */
